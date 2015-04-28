@@ -10,5 +10,9 @@ pendiente (x0,y0) (x1,y1) = (y1-y0) / (x1-x0)
 
 -- | 
 sumaImparesCuadradosMenoresA :: Integer -> Integer
-sumaImparesCuadradosMenoresA n = sum $ takeWhile (\e->e^2<n) [1,3..]
+sumaImparesCuadradosMenoresA n = sum [1,3.. floor $ sqrt $ fromIntegral n]
+
+-- |
+prodInterno :: [Float] -> [Float] -> Float
+prodInterno = fmap sum . zipWith (*)
 
