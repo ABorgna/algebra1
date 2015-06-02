@@ -1,3 +1,4 @@
+module M3 where
 
 listar :: a -> a -> a -> [a]
 listar a b c = [a,b,c]
