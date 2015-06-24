@@ -1,5 +1,9 @@
+-- Ejercicios Taller de Algebra Primer Cuatrimestre 2015
+-- Agustin Borgna
+-- Turno Martes
+
 import Control.Monad (filterM)
-import Data.List (find,group,nub,tails)
+import Data.List (find,group,tails)
 import Data.Maybe (fromJust)
 
 -- | 1.5
